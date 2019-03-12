@@ -1,0 +1,14 @@
+/vis/open OGL 600x600-0+0
+
+/vis/drawVolume
+
+/vis/scene/add/trajectories smooth
+
+/vis/scene/endOfEventAction accumulate 10000
+
+/vis/scene/add/axes 500 500 -500 200 mm
+
+/vis/viewer/set/hiddenMarker true
+/vis/viewer/set/viewpointThetaPhi 0 0
+
+/vis/viewer/set/autoRefresh true
